@@ -3,101 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Abdoulaye Tolno</title>
+    <title>Abdoulaye Tolno - Développeur Web</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="cv-container">
-        <!-- Colonne de gauche (Profil, Contact, Compétences, Langues) -->
-        <div class="left-column">
-            <!-- Photo de profil -->
-            <div class="profile-picture">
-                <img src="image/20250630_175349.jpg" width="100" alt="Abdoulaye Tolno">
+        <!-- Colonne de gauche -->
+        <aside class="left-column">
+            <div class="profile-wrapper">
+                <div class="profile-picture">
+                    <img src="image/20250630_175349.jpg" alt="Abdoulaye Tolno">
+                </div>
+                <div class="profile-name-mobile">
+                    <h1>Abdoulaye TOLNO</h1>
+                    <p class="job-title">Développeur Web</p>
+                </div>
             </div>
 
-            <!-- Section Contact -->
-            <section class="cv-section">
-                <h2><i class="fas fa-id-card"></i>Contact</h2>
-                <ul class="contact-list">
-                    <li><i class="fas fa-envelope"></i> tolnoabdoulaye45@gmail.com</li>
-                    <li><i class="fas fa-phone"></i> +224 626 22 57 26</li>
-                </ul>
-            </section>
-            <!-- Section Compétences -->
-            <section class="cv-section">
-                <h2><i class="fas fa-cogs"></i>Compétences</h2>
-                <ul class="skills-list">
-                    <li>HTML / CSS</li>
-                    <li>MySQL</li>
-                    <li>SQL Server</li>
-                    <li>Microsoft Office</li>
-                </ul>
-            </section>
-            <!-- Section Langues -->
-            <section class="cv-section">
-                <h2><i class="fas fa-language"></i>Langues</h2>
-                <ul class="languages-list">
-                    <li>Français</li>
-                    <li>Peulh</li>
-                    <li>Soussou</li>
-                </ul>
-            </section>
-            <!-- Centres d'intérêt -->
-            <section class="cv-section">
-                <h2><i class="fas fa-heart"></i>Centres d'intérêt</h2>
-                <ul class="Centres-list">
-                    <li>Amour</li>
-                    <li>Sport</li>
-                    <li>Veille Technologique</li>
-                </ul>
-                <!-- <p>Amour et passion pour la lecture et le sport</p> -->
-            </section>
-        </div>
-        <!-- Colonne de droite (Profil, Expériences, Éducation) -->
-        <div class="right-column">
-            <!-- En-tête -->
-            <header class="cv-header">
+            <div class="contact-info">
+                <h3><i class="fas fa-id-card"></i>Contact</h3>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>tolnoabdoulaye45@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+224 626 22 57 26</span>
+                </div>
+            </div>
+
+            <div class="skills-info">
+                <h3><i class="fas fa-code"></i>Compétences</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5 / CSS3</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">SQL Server</span>
+                    <span class="skill-tag">Microsoft Office</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Responsive Design</span>
+                </div>
+            </div>
+
+            <div class="languages-info">
+                <h3><i class="fas fa-language"></i>Langues</h3>
+                <div class="language-item">
+                    <span>Français</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="language-item">
+                    <span>Peulh</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="language-item">
+                    <span>Soussou</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="interests-info">
+                <h3><i class="fas fa-heart"></i>Centres d'intérêt</h3>
+                <div class="interest-tags">
+                    <span class="interest-tag"><i class="fas fa-heart"></i> Lecture</span>
+                    <span class="interest-tag"><i class="fas fa-futbol"></i> Sport</span>
+                    <span class="interest-tag"><i class="fas fa-microchip"></i> Tech</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Colonne de droite -->
+        <main class="right-column">
+            <div class="header-desktop">
                 <h1>Abdoulaye TOLNO</h1>
                 <p class="job-title">Développeur Web</p>
-            </header>
-            <!-- Section Profil -->
+                <div class="header-line"></div>
+            </div>
+
             <section class="cv-section">
-                <h2><i class="fas fa-user"></i> Profil</h2>
-                <p>Développeur web passionné, spécialisé dans la création de sites dynamiques et modernes pour les entreprises et institutions.</p>
+                <h2><i class="fas fa-user-astronaut"></i> Profil</h2>
+                <p>Développeur web passionné, spécialisé dans la création de sites dynamiques et modernes pour les entreprises et institutions. Autodidacte et rigoureux, je suis constamment à l'affût des nouvelles technologies pour offrir des solutions innovantes et performantes.</p>
             </section>
-            <!-- Section Expériences -->
+
             <section class="cv-section">
                 <h2><i class="fas fa-briefcase"></i> Expériences</h2>
-                <div class="experience-item">
-                    <h3>Formation en Informatique</h3>
-                    <p class="date">2024 - Aujourd’hui</p>
-                    <ul>
-                        <li>Participation à une formation théorique et pratique en Informatique de Base, Algorithme et Photoshop.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Auto-formation</h3>
-                    <p class="date">2023</p>
-                    <ul>
-                        <li>Auto-formation dans un Cyber.</li>
-                    </ul>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Formation en Informatique</h3>
+                            <span class="date">2024 - Aujourd'hui</span>
+                            <p>Participation à une formation théorique et pratique en Informatique de Base, Algorithme et Photoshop.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Auto-formation</h3>
+                            <span class="date">2023</span>
+                            <p>Auto-formation intensive dans un Cyber, développement de projets personnels et acquisition de compétences pratiques.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <!-- Section Éducation -->
+
             <section class="cv-section">
                 <h2><i class="fas fa-graduation-cap"></i> Éducation</h2>
-                <div class="education-item">
-                    <h3>Licence 2 (L2) en Génie Informatique</h3>
-                    <p class="institution">Institut Supérieur de Technologie de Mamou | 2024–2025</p>
-                </div>
-                <div class="education-item">
-                    <h3>Licence 1 (L1) en Génie Informatique</h3>
-                    <p class="institution">Institut Supérieur de Technologie de Mamou | 2023–2024</p>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-year">2025-2026</div>
+                        <h3>Licence 3 (L3) en Génie Informatique</h3>
+                        <p class="institution">Institut Supérieur de Technologie de Mamou</p>
+                        <div class="education-badge">
+                            <i class="fas fa-star"></i> En cours
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-year">2024-2025</div>
+                        <h3>Licence 2 (L2) en Génie Informatique</h3>
+                        <p class="institution">Institut Supérieur de Technologie de Mamou</p>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-year">2023-2024</div>
+                        <h3>Licence 1 (L1) en Génie Informatique</h3>
+                        <p class="institution">Institut Supérieur de Technologie de Mamou</p>
+                    </div>
                 </div>
             </section>
-        </div>
+
+            <section class="cv-section">
+                <h2><i class="fas fa-certificate"></i> Certifications</h2>
+                <div class="certifications">
+                    <div class="cert-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML/CSS (En cours)</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript (En cours)</span>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="cv-footer">
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </footer>
+        </main>
     </div>
 </body>
 </html>
